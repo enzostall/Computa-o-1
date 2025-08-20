@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main ()
+{
+	float base;
+	float altura;
+	float perimetro;
+	float area;
+	printf("Digite a base: \n");
+	scanf("%f", &base);
+	printf("Digite a altura: \n");
+	scanf("%f", &altura);
+
+	perimetro= 2*base + 2*altura;
+	area= base * altura;
+
+	printf("O perimetro eh: %.2f \n", perimetro);
+	printf("A area eh:  %.2f \n", area);
+
+	if (perimetro > area)
+		printf("O perimetro eh maior que a area");
+	else if
+		printf("O perimetro eh menor que a area !!!");
+	else perimetro=area);
+	printf ("sao iguais");
+	
+	return 0;
+}
+
+
+ARRUMAR- ex 2 e 3 
