@@ -26,5 +26,17 @@ int main() {
 	while (palpite != magico);
 	printf("\nPARABENS! voce acertou o numero %d em %d tentativas!\n", magico, tentativas);
 
+
+	printf("Sua classificacao: \n");
+	if(tentativas <=3) {
+		printf("\\o/\n");
+	}  else if (tentativas <=6) {
+		printf(":-D\n");
+	} else if (tentativas <=10) {
+		printf(":-)\n");
+	} else {
+		printf(":-\\\n");
+	}
+
 	return 0;
 }
