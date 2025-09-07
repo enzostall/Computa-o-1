@@ -24,8 +24,8 @@ int main() {
             sao_iguais = 0;
             break;
         }
-    }
     n = n / 10;
+	}
     if (sao_iguais) { 
         if (sao_iguais == 1)
         printf("Sim, os digitos de %d sao todos iguais entre si. \n", numero_og);
@@ -34,6 +34,3 @@ int main() {
     }
     return 0;
 }
-
-
-ARRUMAR CODIGO
